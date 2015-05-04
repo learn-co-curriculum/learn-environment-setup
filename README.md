@@ -31,9 +31,7 @@ In general the list of requirements for using Learn are:
 
 5. You're going to need [git](http://git-scm.com/downloads). It generally comes with most modern operating systems, can be installed via Homebrew and apt-get and most package managers easily. 
 
-6. A Ruby Interpreter. Even for Mobile Development with iOS and XCode, even for Web Development with Python or Javascript, because so much tooling is built in Ruby, having a working interpreter is a great idea. If you can type `ruby -v` and not get an error, you probably have enough of a Ruby environment.
-
-If you are studying Web Development with Ruby, such as the Rails framework, you definetly need a great Ruby environment. We love [RVM](https://rvm.io/) for managing Ruby versions and environments.
+6. A Ruby Interpreter. Even for Mobile Development with iOS and XCode, even for Web Development with Python or Javascript, because so much tooling is built in Ruby, having a working interpreter is a great idea. If you can type `ruby -v` and not get an error, you probably have enough of a Ruby environment. If you are studying Web Development with Ruby, such as the Rails framework, you definetly need a great Ruby environment. We love [RVM](https://rvm.io/) for managing Ruby versions and environments.
 
 7. The `learn` gem. Simply type: `gem install learn-co` or if you get a permissions error, `sudo gem install learn-co`. Then type in `learn` to configure it with your github account and you're all set.
 
