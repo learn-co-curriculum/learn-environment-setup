@@ -43,6 +43,8 @@ Those are the absolute requirements.
 
 1. You need to install the Learn-XCPretty gem with `gem install learn-xcpretty` or if you get permission errors, `sudo gem install learn-xcpretty`.
 
+2. You need to install the cocoapods gem. `gem install cocoapods` or if you get permission errors, `sudo gem install cocoapods`.
+
 ### Additional Requirements for Ruby on Rails
 
 If you're planning on working with the Ruby on Rails framework. We additionally suggest you setup at least:
