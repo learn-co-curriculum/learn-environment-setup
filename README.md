@@ -49,11 +49,13 @@ Those are the absolute requirements.
 
 If you're planning on working with the Ruby on Rails framework. We additionally suggest you setup at least:
 
-1. The easiest free database to use with Rails is [SQLite](https://www.sqlite.org/download.html. You can install it with `brew install sqlite` or an equivalent package manager or install it yourself from source.
+1. The easiest free database to use with Rails is [SQLite](https://www.sqlite.org/download.html). You can install it with `brew install sqlite` or an equivalent package manager or install it yourself from source.
 
 2. Postgres is a great idea to have setup too and the [Postgres.app](http://postgresapp.com/) makes it easy.
 
 3. You probably want to install LibXML2 via Homebrew (`brew install libxml2`) and then test it by trying to install the gem [Nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x) with `gem install nokogiri`
+
+4. The rails gem. `gem install rails`
 
 ### Help and Advice
 
