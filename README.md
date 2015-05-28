@@ -1,8 +1,3 @@
----
-tags: setup, environment, bash
-languages: bash
----
-
 # Setup
 
 ## Setting Up Your Environment for Learn.co
