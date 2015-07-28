@@ -6,13 +6,21 @@ You need a proper development environment to learn to code. Whether you're learn
 
 ## Automating the Setup with Environmentalizer
 
-Normally we setup your computer using the [Learn OSX Companion application](https://flatironschool-static.s3.amazonaws.com/learn.zip). That is definetly the easiest way to set up your computer.
+Normally we setup your computer using the [Learn OSX Companion application](https://flatironschool-static.s3.amazonaws.com/learn.zip). That is definitely the easiest way to set up your computer.
+
+If you use that app, a Github account is all you need (and you presumably already have one, since you're reading this document!).
+
+### **If you use the Learn Companion App, you don't need to continue reading this guide; you are done!**
+
+*If you're curious, or want more control over your environment, feel free to continue on for manual instructions.*
+
+## About the Learn App
 
 That application actually just uses a BASH script called [Environmentalizer](https://github.com/learn-co-curriculum/setup-with-environmentalizer).
 
 You can either choose to run that script manually or proceed with this guide to install the requirements as you see fit.
 
-## Requirements
+## Manual Requirements
 
 In general the list of requirements for using Learn are:
 
@@ -34,11 +42,6 @@ In general the list of requirements for using Learn are:
 
 Those are the absolute requirements.
 
-### Additional Requirements for iOS and XCode
-
-1. You need to install the Learn-XCPretty gem with `gem install learn-xcpretty` or if you get permission errors, `sudo gem install learn-xcpretty`.
-
-2. You need to install the cocoapods gem `gem install cocoapods`, or if you get permission errors `sudo gem install cocoapods`.
 
 ### Additional Requirements for Ruby on Rails
 
