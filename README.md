@@ -60,3 +60,5 @@ If you're planning on working with the Ruby on Rails framework. We additionally 
 Since you're reading this guide you probably have some experience with environment setups, if not, please use the Learn Companion app to automate your setup. We also think the [RailsApps Install Guides](http://railsapps.github.io/installrubyonrails-mac.html) are great. [InstallRails](http://installrails.com/) isn't bad either.
 
 Good luck!!!
+
+<a href='https://learn.co/lessons/learn-environment-setup' data-visibility='hidden'>View this lesson on Learn.co</a>
