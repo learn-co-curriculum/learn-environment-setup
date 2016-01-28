@@ -61,4 +61,4 @@ Since you're reading this guide you probably have some experience with environme
 
 Good luck!!!
 
-<a href='https://learn.co/lessons/learn-environment-setup' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-environment-setup' title='Setup'>Setup</a> on Learn.co and start learning to code for free.</p>
