@@ -6,7 +6,7 @@ You need a proper development environment to learn to code. Whether you're learn
 
 ## Automating the Setup with Environmentalizer
 
-Normally we setup your computer using the [Learn OSX Companion application](https://flatironschool-static.s3.amazonaws.com/learn.zip). That is definitely the easiest way to set up your computer.
+Normally we setup your computer using the [Learn OSX Companion application](https://learn.co/osx/download). That is definitely the easiest way to set up your computer.
 
 If you use that app, a Github account is all you need (and you presumably already have one, since you're reading this document!).
 
