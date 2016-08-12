@@ -1,9 +1,5 @@
 # Common Environment and Setup Questions 
 
-## How Do I Get Set up on Learn? 
-
-You can click [here](https://learn.co/sign_in?poi_needed=true). Enter your email, choose a free introductory track, and proceed from there to get set up.
-
 ## What's the Learn IDE? 
 
 An IDE is an integrated development environment and this is where you're going to be completing coding labs in Learn. Let's take a few minutes and talk a little more about it and how it works.
