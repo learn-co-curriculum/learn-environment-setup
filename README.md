@@ -1,64 +1,29 @@
-# Setup
+# Common Environment and Setup Questions 
 
-## Setting Up Your Environment for Learn.co
+## How Do I Get Set up on Learn? 
 
-You need a proper development environment to learn to code. Whether you're learning Web Development, with a focus on Ruby, Python, or Javascript; or Mobile Development, with a focus on Objective-C & iOS or Java & Android; this guide is going to go through the manual steps you can take to set up your environment to work with Learn.co .
+You can click [here](https://learn.co/sign_in?poi_needed=true). Enter your email, choose a free introductory track, and proceed from there to get set up.
 
-## Automating the Setup with Environmentalizer
+## What's the Learn IDE? 
 
-Normally we setup your computer using the [Learn OSX Companion application](https://learn.co/osx/download). That is definitely the easiest way to set up your computer.
+An IDE is an integrated development environment and this is where you're going to be completing coding labs in Learn. Let's take a few minutes and talk a little more about it and how it works.
 
-If you use that app, a Github account is all you need (and you presumably already have one, since you're reading this document!).
+The Learn IDE is built on top of Atom, the text editor by the amazing people at GitHub. The Learn IDE uses the same open-source technologies that thousands of professional developers use everyday, so when you're using the Learn IDE, you're using the same real tools that developers use. Because it's built on top of Atom, it's also compatible with the entire Atom plugin infrastructure giving you access to all kinds of useful extensions and tools you can add on as you see fit.
 
-### **If you use the Learn Companion App, you don't need to continue reading this guide; you are done!**
+When you open the Learn IDE, you'll see 3 main components: the file browser, the text editor and the terminal. Let's talk about each of those. 
 
-*If you're curious, or want more control over your environment, feel free to continue on for manual instructions.*
+<img src="http://learn-co-videos.s3.amazonaws.com/welcome/ide-components.png" style="width:100%" />
 
-## About the Learn App
+Down the left side of the IDE, you'll find a file browser which lists the files and folders in your “code” workspace. Contained in your “code” workspace is a “labs” folder—this is the folder into which all of the code labs and projects you'll be working on will appear. You'll see new folders be automatically copied here for you as you start working through lessons on Learn very soon. Clicking on a file in the file browser will load the contents of that file into the text editor window. 
 
-That application actually just uses a BASH script called [Environmentalizer](https://github.com/learn-co-curriculum/setup-with-environmentalizer).
+The text editor window is the central part of the IDE. This is where you'll actually be writing code. You'll write code here either by editing existing files in the project folders that are copied into the IDE or by creating new files when necessary. You can work on multiple files at once in the text editor, they'll appear as tabs across the top of your screen. Remember to save your work often—especially just before trying to run a program, so that the interpreter is always running the latest version of your code. 
 
-You can either choose to run that script manually or proceed with this guide to install the requirements as you see fit.
+The Learn IDE's terminal—your command line and shell—can be found below the text editor. If you were using a local terminal on your computer, you'd need to spend a bunch of time installing several different tools and packages to allow you to start compiling and running code; it can be a cumbersome and complex process. But because we want you to start coding as quickly as possible in the Learn IDE, we've pre-configured the terminal here with a complete development environment that has everything you need to get started. The magic that makes this possible is the fact that the Learn IDE's terminal is connected over the Internet to a remote server we've set up with a complete development environment for you. This will allow you to adopt the workflow of a professional software developer right out of the gates on Learn, with no fuss.
 
-## Manual Requirements
+When you get set up for Learn you'll be  prompted to download the IDE during the process. 
 
-In general the list of requirements for using Learn are:
+## What If I'm Set up on Learn but don't have the IDE? 
 
-1. A [GitHub](https://github.com/join) account. You can use the free account on GitHub—you won't need private repositories at this point.
-
-2. You should have your GitHub account tied to your shell preferably via [SSH](https://help.github.com/articles/generating-ssh-keys/) but you can use [OSX Keychains](https://help.github.com/articles/updating-credentials-from-the-osx-keychain/).
-
-3. You'll need a way to compile software. If you're on OSX, the best thing you can do is use [XCode](https://developer.apple.com/xcode/downloads/) and [XCode Command Line Tools](https://developer.apple.com/library/ios/technotes/tn2339/_index.html) [download for 10.10 XCode 6.3.1](http://adcdownload.apple.com/Developer_Tools/Command_Line_Tools_OS_X_10.10_for_Xcode_6.3.1/commandlinetoolsosx10.10forxcode6.3.1.dmg) to get GCC.
-
-4. You'll probably need a package manager of some sort. We love [Homebrew](http://brew.sh/) on OSX.
-
-5. You're going to need [git](http://git-scm.com/downloads). It generally comes with most modern operating systems, can be installed via Homebrew, apt-get, and most package managers easily. 
-
-6. A Ruby Interpreter. Having a working interpreter is a great idea because so much tooling is built in Ruby. This is true for Web Development with Python or Javascript, and even for Mobile Development with iOS & XCode. If you can type `ruby -v` and not get an error, you probably have enough of a Ruby environment. If you are studying Web Development with Ruby (such as the Rails framework) you definitely need a great Ruby environment. We love [RVM](https://rvm.io/) for managing Ruby versions and environments.
-
-7. The `learn` gem. Simply type: `gem install learn-co` or if you get a permissions error, `sudo gem install learn-co`. Then type in `learn` to configure it with your github account and you'll be all set.
-
-8. A Text Editor. For iOS, XCode is a great IDE. But you'll find the free editors [Sublime Text](http://www.sublimetext.com/) and [Atom](https://atom.io/) useful anyway so go ahead an install them.
-
-Those are the absolute requirements.
-
-
-### Additional Requirements for Ruby on Rails
-
-If you're planning on working with the Ruby on Rails framework. We additionally suggest you setup at least:
-
-1. The easiest free database to use with Rails is [SQLite](https://www.sqlite.org/download.html). You can install it with `brew install sqlite` or an equivalent package manager, or install it yourself from the source.
-
-2. Postgres is a great idea to have set up too and the [Postgres.app](http://postgresapp.com/) makes it easy.
-
-3. You probably want to install LibXML2 via Homebrew (`brew install libxml2`) and then test it by trying to install the gem [Nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x) with `gem install nokogiri`.
-
-4. The Rails gem `gem install rails`.
-
-### Help and Advice
-
-Since you're reading this guide you probably have some experience with environment setups, if not, please use the Learn Companion app to automate your setup. We also think the [RailsApps Install Guides](http://railsapps.github.io/installrubyonrails-mac.html) are great. [InstallRails](http://installrails.com/) isn't bad either.
-
-Good luck!!!
+Go to learn.co/ide and follow the steps from there. 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-environment-setup' title='Setup'>Setup</a> on Learn.co and start learning to code for free.</p>
