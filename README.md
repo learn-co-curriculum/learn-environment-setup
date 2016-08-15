@@ -2,7 +2,7 @@
 
 ## How Do I Get Set up on Learn? 
 
-You can click [here](https://learn.co/sign_in?poi_needed=true). Enter your email, choose a free introductory track, and proceed from there to get set up.
+To sign up for Learn, click the "Try a Free Intro Course" button at the top of this page. You can also go to [Flatiron School](https://flatironschool.com/) and browse all of our courses. 
 
 ## What's the Learn IDE? 
 
