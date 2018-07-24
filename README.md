@@ -24,6 +24,6 @@ When you get set up for Learn you'll be  prompted to download the IDE during the
 
 ## What If I'm Set up on Learn but don't have the IDE? 
 
-Go to [learn.co/ide](http://learn.co/ide) and follow the steps from there. 
+Go to [learn.co/ide](http://help.learn.co/the-learn-ide/how-to-download-and-use-learn-ide-3) and follow the steps from there. 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-environment-setup' title='Setup'>Setup</a> on Learn.co and start learning to code for free.</p>
